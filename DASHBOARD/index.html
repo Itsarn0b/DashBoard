@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dsh.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="logo-android"></ion-icon
+                    ></span>
+                        <span class="tittle">𝙣𝙚𝙞𝙜𝙝𝙗𝙤𝙧𝙝𝙤𝙤𝙙.𝙘𝙤𝙢</span>
+                </li>
+                </a>
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="home-outline"></ion-icon
+              ></span>
+                        <span class="tittle"> Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="people-outline"></ion-icon
+              ></span>
+                        <span class="tittle"> Coustomer</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="logo-wechat"></ion-icon></span>
+                        <span class="tittle"> Message</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="information-circle-outline"></ion-icon
+              ></span>
+                        <span class="tittle"> Help</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="settings-outline"></ion-icon>
+              </span>
+                        <span class="tittle"> Settings</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="lock-open-outline"></ion-icon>
+              </span>
+                        <span class="tittle"> Password</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="log-out-outline"></ion-icon>
+              </span>
+                        <span class="tittle"> Sign out</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div class="topbar">
+            <div class="toggle">
+                <ion-icon name="grid-outline"></ion-icon>
+            </div>
+
+            <div class="search">
+                <label for=""> <input type="text" placeholder="Search XYZ"> <ion-icon name="search-circle-outline"></ion-icon></label>
+            </div>
+
+
+            <div class="user"><img src="customer01.jpg" alt="">
+            </div>
+
+        </div>
+        <!-- ++++=====================cards======= -->
+        <div class="cardBox">
+            <div class="card">
+                <div>
+                    <div class="numbers">1,504</div>
+                    <div class="cardName">Daily Views</div>
+                </div>
+                <div class="iconBx">
+                    <ion-icon name="eye-outline"></ion-icon>
+                </div>
+            </div>
+
+            <div class="card">
+                <div>
+                    <div class="numbers">80</div>
+                    <div class="cardName">Sales</div>
+                </div>
+                <div class="iconBx">
+                    <ion-icon name="cart-outline"></ion-icon>
+                </div>
+            </div>
+
+            <div class="card">
+                <div>
+                    <div class="numbers">284</div>
+                    <div class="cardName">Comments</div>
+                </div>
+                <div class="iconBx">
+                    <ion-icon name="chatbubbles-outline"></ion-icon>
+                </div>
+            </div>
+
+            <div class="card">
+                <div>
+                    <div class="numbers">$7,842</div>
+                    <div class="cardName">Earning</div>
+                </div>
+                <div class="iconBx">
+                    <ion-icon name="cash-outline"></ion-icon>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- ========order details======== -->
+        <div class="details">
+            <div class="recentOrders">
+                <div class="cardHeader">
+                    <h2>Recent Orders</h2>
+                    <a href="#" class="btn">View All</a>
+                </div>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Name</td>
+                            <td>Price</td>
+                            <td>Payment</td>
+                            <td>Status</td>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Pro Room</td>
+                            <td>$1200</td>
+                            <td>Paid</td>
+                            <td><span class="statusdelivered">Delivered</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Single Room</td>
+                            <td>$110</td>
+                            <td>Due</td>
+                            <td><span class="statuspending">Pending</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Queen Room</td>
+                            <td>$1200</td>
+                            <td>Paid</td>
+                            <td><span class="statusreturn">Return</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Jambo Room</td>
+                            <td>$620</td>
+                            <td>Due</td>
+                            <td><span class="statusinProgress">In Progress</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Full HOuse</td>
+                            <td>$1200</td>
+                            <td>Paid</td>
+                            <td><span class="statusdelivered">Delivered</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Bingo Room</td>
+                            <td>$110</td>
+                            <td>Due</td>
+                            <td><span class="statuspending">Pending</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>2B Room</td>
+                            <td>$1500</td>
+                            <td>Paid</td>
+                            <td><span class="statusreturn">Return</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>Dream Room</td>
+                            <td>$620</td>
+                            <td>Due</td>
+                            <td><span class="statusinProgress">In Progress</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            <!-- ======newCoustomers====== -->
+            <div class="recentCustomers">
+                <div class="cardHeader">
+                    <h2>Recent Coustomers</h2>
+                    <!-- <a href="#" class="btn">View All</a> -->
+                </div>
+                <table>
+                    <tr>
+                        <td width="60px">
+                            <div class="imgBx"><img src="customer02.jpg" alt=""></div>
+                        </td>
+                        <td>
+
+                            <h4>Mellisa <br> <span>Italy</span></h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="60px">
+                            <div class="imgBx"><img src="customer03.jpg" alt=""></div>
+                        </td>
+                        <td>
+
+                            <h4>Aamon <br> <span>Norway</span></h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="60px">
+                            <div class="imgBx"><img src="customer05.jpg" alt=""></div>
+                        </td>
+                        <td>
+
+                            <h4>Prabhjeet <br> <span>India</span></h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="60px">
+                            <div class="imgBx"><img src="customer06.jpg" alt=""></div>
+                        </td>
+                        <td>
+
+                            <h4>Karolina <br> <span>USA</span></h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="60px">
+                            <div class="imgBx"><img src="customer07.jpg" alt=""></div>
+                        </td>
+                        <td>
+
+                            <h4>Zilong <br> <span>China</span></h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="60px">
+                            <div class="imgBx"><img src="customer08.jpg" alt=""></div>
+                        </td>
+                        <td>
+
+                            <h4>Jesica <br> <span>Ethiopia</span></h4>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="dsh.js"></script>
+    <script src="https://kit.fontawesome.com/93ec93d954.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
